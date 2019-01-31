@@ -1,0 +1,6 @@
+classes= 3
+train  = x64/Release/data/train.txt
+valid  = x64/Release/data/train.txt
+names = x64/Release/data/obj.names
+backup = backup/
+
