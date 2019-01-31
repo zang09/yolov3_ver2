@@ -1,0 +1,4 @@
+<launch>
+  <node name="yolov3_darknet_ver2" pkg="yolov3_ver2" type="yolov3_ver2" output="screen">
+    </node>  
+</launch>
