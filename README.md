@@ -1,5 +1,5 @@
 # YoloV3 darknet simulator
-- http://wiki.ros.org/open_manipulator
+- https://github.com/zang09/yolov3_ver2.git
 
 ## How to launch
 
