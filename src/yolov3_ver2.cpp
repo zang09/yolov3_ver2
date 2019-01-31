@@ -198,12 +198,12 @@ int main(int argc, char **argv)
     image_transport::ImageTransport it_(nh_);
     image_transport::Subscriber image_sub_;
 
-    detector_init("/home/robit/catkin_ws/src/yolov3_ver2/darkent/yolov3-tiny_obj.cfg",
-                  "/home/robit/catkin_ws/src/yolov3_ver2/darkent/yolov3-tiny_obj_10000.weights");
+    detector_init("/home/robit/catkin_ws/src/yolov3_ver2/darknet/yolov3-tiny_obj.cfg",
+                  "/home/robit/catkin_ws/src/yolov3_ver2/darknet/yolov3-tiny_obj_10000.weights");
 
     //image_sub_ = it_.subscribe("/usb_cam/image_raw", 1, &imageCb); //Receive Webcam image
 
-    darknet_simulator("/home/robit/catkin_ws/src/yolov3_ver2/darkent/test_video/drive.avi");  //Receive Video image
+    darknet_simulator("/home/robit/catkin_ws/src/yolov3_ver2/darknet/test_video/drive.avi");  //Receive Video image
 
     ros::spin();
 

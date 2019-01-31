@@ -20,8 +20,8 @@
 #define DARKNETDETECTOR_H
 
 extern "C" {
-#include "/home/robit/catkin_ws/src/yolov3_ver2/darkent/src/utils.h"
-#include "/home/robit/catkin_ws/src/yolov3_ver2/darkent/src/parser.h"
+#include "/home/robit/catkin_ws/src/yolov3_ver2/darknet/src/utils.h"
+#include "/home/robit/catkin_ws/src/yolov3_ver2/darknet/src/parser.h"
 }
 
 void detector_init(char *cfgfile, char *weightfile);

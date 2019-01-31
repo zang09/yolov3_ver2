@@ -49,11 +49,11 @@ set(Opencv_LIBS
 
 
 set(Darknet_INCLUDE_DIRS
-  /home/robit/catkin_ws/src/yolov3_ver2/darkent/src
+  /home/robit/catkin_ws/src/yolov3_ver2/darknet/src
 )
 
 set(Darknet_LIB_DIR
-  /home/robit/catkin_ws/src/yolov3_ver2/darkent
+  /home/robit/catkin_ws/src/yolov3_ver2/darknet
 )
 
 set(Darknet_LIBS
